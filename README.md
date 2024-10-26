@@ -4,7 +4,7 @@
 
 The Overlay Image Generator is a Python program that combines a specified overlay image (e.g., a QR code) with multiple background images to create new images. This is particularly useful for branding, marketing, or creating visual content where you want to overlay a specific graphic onto various backgrounds.
 
-This program was created for [Feedbacker Reviews](feedbacker.cx/reviews).
+This program was created for [Feedbacker Reviews](https://feedbacker.cx/reviews/).
 
 ## Features
 
@@ -30,7 +30,7 @@ pip install Pillow
 
 1. Modify Image Paths:
 
-Ensure to change the paths of the overlay and background images in the script. You will need to replace the file paths in the background_paths list and overlay_path variable with your local file paths.
+Ensure to change the paths of the overlay and background images in the script. You will need to replace the file paths in the `background_paths` list and `overlay_path` variable with your local file paths.
 
 2. Set Overlay Position:
 
@@ -44,9 +44,11 @@ python overlay_image_generator.py
 ```
 
 4. Output:
+
 The generated images will be saved in the specified output folder with filenames formatted as `result_<overlay_name>_<background_name>.png`.
 
 ## Example:
+
 If your overlay image is named `qr-code_gust.png` and you have background images named `v1-1.png`, `v1-2.png`, etc., the output filenames will be:
 
 - `result_qr-code_gust_v1-1.png`
@@ -54,16 +56,19 @@ If your overlay image is named `qr-code_gust.png` and you have background images
 - ...
 
 ## Note
-Ensure that the image files are accessible in the specified locations. If you receive a FileNotFoundError, double-check the paths provided in the code.
+
+Ensure that the image files are accessible in the specified locations. If you receive a `FileNotFoundError`, double-check the paths provided in the code.
 You may need to adjust the scaling factor for resizing the overlay image depending on your specific use case.
 
 ## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
+
 For any inquiries or feedback, please contact:
 
-Felipe Valencia - CEO & Data Scientist at [Dataplicada](dataplicada.com)
+Felipe Valencia - CEO & Data Scientist at [Dataplicada](https://dataplicada.com/)
 
 - f.valencia-clavijo@uea.ac.uk
 - fevacla@byui.edu
